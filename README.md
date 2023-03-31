@@ -1,6 +1,6 @@
 # CHATBOT - COVID-19
 
-[![GitHub license](https://img.shields.io/github/license/sgalvao/covid-chatbot.svg)](https://github.com/sgalvao/covid-chatbot/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/sgalvao/covid-chatbot.svg)](https://github.com/sgalvao/covid-chatbot/LICENSE)
 
 O chatbot desenvolvido é um especialista em COVID-19 e utiliza o modelo Curie da OpenAI. Com esse modelo, o chatbot é capaz de compreender de forma ainda mais precisa as perguntas dos usuários e fornecer respostas mais personalizadas e adaptadas às necessidades de cada indivíduo.
 

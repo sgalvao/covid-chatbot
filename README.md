@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CHATBOT - COVID-19
 
-## Getting Started
+[![GitHub license](https://img.shields.io/github/license/seu-username/seu-repositorio.svg)](https://github.com/sgalvao/seu-repositorio/blob/main/LICENSE)
 
-First, run the development server:
+O chatbot desenvolvido é um especialista em COVID-19 e utiliza o modelo Curie da OpenAI. Com esse modelo, o chatbot é capaz de compreender de forma ainda mais precisa as perguntas dos usuários e fornecer respostas mais personalizadas e adaptadas às necessidades de cada indivíduo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+O chatbot é capaz de fornecer informações atualizadas sobre o vírus, como sintomas, prevenção, tratamentos e estatísticas de casos e mortes. Além disso, o modelo Curie permite que o chatbot seja personalizado com base em dados específicos do usuário ou do setor, permitindo que forneça informações ainda mais relevantes e precisas sobre a pandemia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Com a utilização do modelo Curie, o chatbot é capaz de gerar respostas mais coerentes e naturais, tornando a interação com o usuário ainda mais agradável e eficiente. O chatbot pode ser utilizado por profissionais de saúde para ajudar a conscientizar as pessoas sobre a importância da prevenção e do tratamento adequado do COVID-19, além de ajudar a esclarecer dúvidas e fornecer informações precisas e confiáveis sobre a pandemia.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- NextJS
+- OpenAi API
+- Axios
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Requisitos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- NodeJs: ^16.x.x
 
-## Learn More
+### Instalação
 
-To learn more about Next.js, take a look at the following resources:
+para instalar as dependências
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> yarn install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ou
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> npm install

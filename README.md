@@ -1,4 +1,4 @@
-# CHATBOT - COVID-19
+# CHATBOT - Futebol Mundial
 
 [![GitHub license](https://img.shields.io/github/license/sgalvao/covid-chatbot.svg)](https://github.com/sgalvao/covid-chatbot/blob/main/LICENSE)
 
@@ -27,3 +27,39 @@ para instalar as dependências
 ou
 
 > npm install
+
+## Decisões Arquiteturais
+
+### Plataforma utilizada
+
+Para o desenvolvimento do algoritmo conversacional, foi utilizada a plataforma da OpenAI. A plataforma oferece diversos modelos de linguagem pré-treinados, que podem ser utilizados para diversas aplicações, incluindo chatbots.
+
+### Dataset utilizado
+
+Criei um Dataset com algumas perguntas em ingles e português que costumam ser comuns relacionadas a futebol. O processo de criação foi relativamente simples e rapido, eu utilizei o conhecimento previo do modelo _Davinci_ para que ele gerasse perguntas pra mim e pedi para que gerasse perguntas derivadas daquelas perguntas geradas anteriormente e logo após eu formatei tudo no padrão requisitado da OpenAi
+
+> {"prompt": "<prompt text>", "completion": "<ideal generated text>"}
+
+E fiz o upload do dataset para que pudesse iniciar o treinamento do modelo.
+
+### Fine-tuning
+
+Para adaptar o modelo de linguagem pré-treinado às perguntas e respostas relacionadas à Futebol, foi realizado um processo de fine-tuning utilizando o modelo Curie. O fine-tuning foi realizado utilizando o dataset mencionado anteriormente.
+
+### Fluxo de conversa
+
+O fluxo de conversa do algoritmo foi definido da seguinte forma:
+
+O usuário faz uma pergunta relacionada à futebol;
+O algoritmo analisa a pergunta e busca uma resposta no modelo de linguagem pré-treinado fine-tuned com o dataset;
+O algoritmo retorna a resposta encontrada para o usuário.
+
+### Problemas e detalhes a serem corrgidos
+
+Durante a execução de testes e criação de fine-tunings o preço limite da OpenAi foi excedido impossibilitando um treinamento adequado ao modelo em questão.
+Podendo então haver alguns problemas com respostas em linguagens diferentes.
+
+### Pontos de melhoria
+
+- Adicionar maior suporte a linguagem informal.
+- Aumentar o dataset de conhecimento enriquecendo a base de conhecimento do modelo.

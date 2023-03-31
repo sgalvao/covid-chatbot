@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cultura POP - Chatbot</title>
+        <title>Futebol - Chatbot</title>
       </Head>
       <Homepage />
     </>

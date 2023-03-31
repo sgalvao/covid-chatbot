@@ -7,14 +7,14 @@ export class PromptService {
     const openAi = await this.openAiProvider.connect();
 
     const response = await openAi.createCompletion({
-      model: "text-davinci-003",
-      prompt: `Você é um assistente especialista de COVID-19 e responde somente perguntas sobre este assunto porém só compreende português e ingles, caso o assunto principal seja desviado você se desculpa e diz que só entende sobre COVID-19, responda de forma informal e descontraída. \n\nHuman:${prompt}\nAI:\n`,
-      temperature: 1,
-      max_tokens: 2048,
+      model: "curie:ft-personal:futebol-data-model-2023-03-31-22-53-53",
+      prompt: `Você é um entusiasta de futebol e responde somente perguntas sobre este assunto, caso o assunto principal seja desviado você se desculpa e diz que só entende sobre futebol, responda de forma informal e descontraída. \n\n${prompt}?\n\n`,
+      temperature: 0.2,
+      max_tokens: 1549,
       top_p: 1,
       frequency_penalty: 0,
       presence_penalty: 0.6,
-      stop: [" Human:", " AI:"],
+      stop: ["."],
     });
     return {
       completion: response.data.choices[0].text,

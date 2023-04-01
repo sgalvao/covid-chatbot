@@ -8,8 +8,8 @@ export class PromptService {
 
     const response = await openAi.createCompletion({
       model: "curie:ft-personal:futebol-data-model-2023-03-31-22-53-53",
-      prompt: `Você é um entusiasta de futebol e responde somente perguntas sobre este assunto, caso o assunto principal seja desviado você se desculpa e diz que só entende sobre futebol, responda de forma informal e descontraída. \n\n${prompt}\n\n`,
-      temperature: 0.2,
+      prompt: `Você é um entusiasta de futebol e responde somente perguntas sobre este assunto, caso o assunto principal seja desviado você se desculpa e diz que só entende sobre futebol, responda de forma informal e descontraída. \n\nQ:${prompt}\nA:\n`,
+      temperature: 0.1,
       max_tokens: 1549,
       top_p: 1,
       frequency_penalty: 0,

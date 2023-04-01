@@ -12,6 +12,8 @@ O CHATBOL é um exemplo de como a inteligência artificial pode ser utilizada pa
 
 O projeto do CHATBOL é altamente escalável e pode ser facilmente adaptado para outras áreas de conhecimento, permitindo que a solução seja utilizada para diferentes tipos de pesquisas e estudos.
 
+[Link de acesso ao demo do projeto](https://chatbol.vercel.app/)
+
 ## Tecnologias Utilizadas
 
 - NextJS
@@ -42,7 +44,7 @@ Para o desenvolvimento do algoritmo conversacional, foi utilizada a plataforma d
 
 Criei um Dataset com algumas perguntas em ingles e português que costumam ser comuns relacionadas a futebol. O processo de criação foi relativamente simples e rapido, eu utilizei o conhecimento previo do modelo _Davinci_ para que ele gerasse perguntas pra mim e pedi para que gerasse perguntas derivadas daquelas perguntas geradas anteriormente e logo após eu formatei tudo no padrão requisitado da OpenAi
 
-> {"prompt": "<prompt text>", "completion": "<ideal generated text>"}
+> {"prompt": "QUESTION", "completion": "ANSWER"}
 
 E fiz o upload do dataset para que pudesse iniciar o treinamento do modelo.
 

@@ -1,11 +1,6 @@
 import { makePromptService } from "@/main/factory";
 import { NextApiRequest, NextApiResponse } from "next";
 
-type Data = {
-  completion: string;
-  isSended: boolean;
-};
-
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse

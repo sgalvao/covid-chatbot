@@ -2,11 +2,15 @@
 
 [![GitHub license](https://img.shields.io/github/license/sgalvao/covid-chatbot.svg)](https://github.com/sgalvao/covid-chatbot/blob/main/LICENSE)
 
-O chatbot desenvolvido é um especialista em COVID-19 e utiliza o modelo Curie da OpenAI. Com esse modelo, o chatbot é capaz de compreender de forma ainda mais precisa as perguntas dos usuários e fornecer respostas mais personalizadas e adaptadas às necessidades de cada indivíduo.
+O CHATBOL é um chatbot especialista em história do futebol, desenvolvido utilizando a API da OpenAI com fine-tuning no modelo Curie. O objetivo do projeto é oferecer uma solução eficaz para a busca e apresentação de informações históricas sobre o futebol.
 
-O chatbot é capaz de fornecer informações atualizadas sobre o vírus, como sintomas, prevenção, tratamentos e estatísticas de casos e mortes. Além disso, o modelo Curie permite que o chatbot seja personalizado com base em dados específicos do usuário ou do setor, permitindo que forneça informações ainda mais relevantes e precisas sobre a pandemia.
+O modelo Curie é uma das arquiteturas de rede neural mais avançadas e eficazes disponíveis atualmente para o processamento de linguagem natural. Utilizando técnicas de aprendizado de máquina, o CHATBOL foi treinado para compreender perguntas em linguagem natural e gerar respostas coerentes e precisas sobre fatos históricos do futebol.
 
-Com a utilização do modelo Curie, o chatbot é capaz de gerar respostas mais coerentes e naturais, tornando a interação com o usuário ainda mais agradável e eficiente. O chatbot pode ser utilizado por profissionais de saúde para ajudar a conscientizar as pessoas sobre a importância da prevenção e do tratamento adequado do COVID-19, além de ajudar a esclarecer dúvidas e fornecer informações precisas e confiáveis sobre a pandemia.
+Além disso, o CHATBOL é capaz de personalizar suas respostas de acordo com as preferências e interesses específicos do usuário, tornando a interação com o chatbot ainda mais eficiente e relevante. Isso é possível graças ao uso de técnicas avançadas de processamento de linguagem natural, que permitem ao chatbot compreender o contexto da pergunta e gerar respostas personalizadas.
+
+O CHATBOL é um exemplo de como a inteligência artificial pode ser utilizada para criar soluções eficazes e inovadoras para a busca de informações históricas em diferentes áreas. A solução oferecida pelo chatbot é capaz de auxiliar estudantes, pesquisadores e entusiastas do futebol na busca por informações precisas e relevantes sobre a história do esporte.
+
+O projeto do CHATBOL é altamente escalável e pode ser facilmente adaptado para outras áreas de conhecimento, permitindo que a solução seja utilizada para diferentes tipos de pesquisas e estudos.
 
 ## Tecnologias Utilizadas
 

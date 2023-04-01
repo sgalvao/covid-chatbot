@@ -21,12 +21,13 @@ export const Homepage = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     const message = {
-      message: prompt,
+      message: prompt.includes("?") ? prompt : `${prompt}?`,
       isSended: true,
     };
     setMessages((current) => [...current, message]);
     setPrompt("");
 
+    console.log(message.message);
     const { data } = await api.post("/prompt", {
       prompt,
     });

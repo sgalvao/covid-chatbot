@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Futebol - Chatbot</title>
+        <title>ChatBol - tudo sobre futebol</title>
       </Head>
       <Homepage />
     </>

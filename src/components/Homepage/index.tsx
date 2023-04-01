@@ -41,12 +41,15 @@ export const Homepage = () => {
 
   return (
     <S.Container>
+      <S.Title>CHATBOL - Tudo sobre futebol</S.Title>
       <S.ChatContent>
         <S.Display>
           {messages &&
             messages.map((message, index) => (
               <S.Message key={index} isSended={message.isSended}>
-                {message.message}
+                {message.isSended
+                  ? `Você: ${message.message}`
+                  : `ChatBol: ${message.message}`}
               </S.Message>
             ))}
         </S.Display>

@@ -19,6 +19,11 @@ export const ChatContent = styled.div`
   padding: 1rem;
 `;
 
+export const Title = styled.h1`
+  color: #fff;
+  margin: 1rem 0;
+`;
+
 export const Input = styled.input`
   width: 100%;
   border: none;
